@@ -1,0 +1,8 @@
+Model,Best Params,Best RMSE (Lower Better),Train R2 Score
+Random_Forest,"{'max_depth': None, 'n_estimators': 200, 'random_state': 42}",8222.42,0.992
+KNN,"{'n_neighbors': 5, 'weights': 'distance'}",9637.75,0.993
+Gradient_Boosting,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200}",10648.61,0.97
+Decision_Tree,"{'max_depth': 10, 'min_samples_split': 2, 'random_state': 42}",12325.07,0.964
+Linear_Regression,{},21694.69,0.832
+Neural_Network,"{'activation': 'relu', 'hidden_layer_sizes': (100,), 'learning_rate_init': 0.01}",21958.01,0.829
+SVR,"{'C': 10, 'epsilon': 0.01, 'kernel': 'linear'}",30317.97,0.671
